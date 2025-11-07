@@ -1,71 +1,19 @@
 body {
   background-color: #8B008B;
-  font-family: Arial, sans-serif;
+  font-family:Arial, sans-serif;
   color: #191970;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  margin: 0;
 }
-
-.kartu-foto {
-  width: 300px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: cyan;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
+.kartu-pp {
+  width:300px;
+  margin:50px auto; /jarak atas/bawah,auto menengah kiri/kanan/
+  padding:20px;
+  background-color:cyan;
+  border-radius:15px; /sudut melengkung/
+  box-shadow:0 4px 8px rgba(0,0,0,0.1);/efek bayangan/
+  text-align:center;/all text ke tengah/
 }
-
-.kartu-foto img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.kartu-foto h1 {
-  color: #191970;
-  margin: 10px 0;
-}
-
-.kartu-foto p {
-  color: #191970;
-  line-height: 1.6;
-  margin: 20px 0;
-}
-
-.kartu-foto a {
-  display: inline-block;
-  background: #191970;
-  color: white;
-  text-decoration: none;
-  padding: 12px 30px;
-  border-radius: 15px;
-  margin: 10px 0;
-  transition: transform 0.3s;
-}
-
-.kartu-foto a:hover {
-  transform: translateY(-2px);
-  background: #000080;
-}
-
-#sapaButton {
-  background: #8B008B;
-  color: white;
-  border: none;
-  padding: 12px 30px;
-  border-radius: 15px;
-  font-size: 16px;
-  cursor: pointer;
-  margin-top: 10px;
-  transition: all 0.3s;
-}
-
-#sapaButton:hover {
-  background: #9400D3;
-  transform: translateY(-2px);
+.kartu-pp img{
+  width:150px;
+  height:150px;
+  border-radius:50%;/gambar kotak sempurna menjadi lingkaran/
 }
